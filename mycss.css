@@ -1,0 +1,375 @@
+/* Navbar CSS */
+.navbar-default {
+  background-color: #000000;
+  border-color: #242424;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #000000;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: #242424;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #242424;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  background-color: #242424;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > li:hover,
+.navbar-default .navbar-nav > .active > li:focus {
+  color: #ffffff;
+  background-color: #242424;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #242424;
+}
+.navbar-default .navbar-toggle {
+  border-color: #242424;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #242424;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+body{
+    background-color: black;
+        font-family: 'Baloo Thambi'; font-size: 17px;
+}
+
+.container{
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;  
+}
+
+#events-container{
+   
+  background-color: #000000;
+
+}
+.header-title{
+    font-family: 'Baloo Thambi';
+    padding: 15px;
+    padding-bottom: 25px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.event-card{
+    
+    margin-bottom: 20px;
+    height: 320px;
+    
+    background-image: url("css/images/box-cultural_2_og.jpg");
+    background-repeat: no-repeat;
+    border-color: #a300cc;
+    border-style: solid;
+    border-radius: 15px 50px;
+
+}
+
+@media only screen and (max-width: 400px) and (orientation: landscape) {
+    
+            .event-card-block{
+                margin-top: 50px;
+                text-align : center;
+
+            padding: 10px;
+            color: aliceblue;
+        }
+        .col-md-
+        .event-card{
+
+        height: 220px;
+
+        background-image: url("css/images/box-cultural_2_sm.jpg");
+        border-color: #a300cc;
+        border-style: solid;
+        border-radius: 15px 50px;
+
+    }
+   
+}
+
+@media only screen and (max-width: 740px) and (orientation: landscape) {
+        .event-card{
+
+        height: 220px;
+
+        background-image: url("css/images/box-cultural_2_ls_landscape.jpg");
+        border-color: #a300cc;
+        border-style: solid;
+        border-radius: 15px 50px;
+
+    }
+}
+
+
+
+.event-card-block{
+        margin-top: 110px;
+        text-align : center;
+        
+    padding: 10px;
+    color: aliceblue;
+}
+
+.event-card-block h3{
+    vertical-align: middle;
+    color: white;
+    
+}
+
+/*** Modal Box ***/
+
+.event-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.event-modal-content {
+	color: aliceblue;
+	border-color: #a300cc;
+    border-style: solid;
+    border-radius: 15px 50px;
+    background-color: #000000;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*MAP*/
+
+#map{
+    height: 160px;
+    width: 50%;
+}
+
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+    background: url(css/images/trophy-jumbo.jpg);
+	background-color: black;
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	
+}
+
+.jumbotron h1{
+    margin-top: 20vh;
+	text-align: center;
+	color: whitesmoke;
+	
+}
+
+.jumbotron p{
+
+    text-align: center;
+	color: whitesmoke;
+	
+}
+
+.myevents-jumbo{
+    
+    background-image : url('css/images/myevents-jumbo.jpg ');
+}
+.myevents-jumbo h1,p {
+    color: forestgreen;
+    
+}
+.events-background{
+    background-image: url(css/images/events-background.jpg)
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height:  100vh;
+}
+
+.aboutUs {
+    margin-top: 70px;
+    padding-top: 70px;
+	padding-bottom: 70px;
+    border-color: black;
+    border-width: 2px 0px 2px 0px;
+    border-style: solid;
+	background-color: #333333;
+	
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+	.flex-container {
+	  display: flex;
+	  flex-direction: column;
+	  height:  35vh;
+	}
+
+}
+
+.home-row{
+	height: 300px;
+}
+.home-card{
+	
+	text-align: center;
+    margin-bottom: 10px;
+    
+	width: 33.33vw;
+	height: 100%;
+    
+    background-image: url("css/images/home-card.jpg");
+    background-repeat: no-repeat;
+}
+.home-card a:hover{
+	    color: white;
+	text-decoration: none;
+
+}
+.home-card h1,a{
+	color: white;
+	padding-top: 25%;
+	text-decoration: none;
+}
+.map-row{
+        display: flex;
+	  flex-direction: column;
+	  height:  65vh;
+}
+#map {
+        align-self: center;
+        margin: 20px;
+        height: 70%;
+        width: 70%;
+        border-radius: 15px 50px;
+    	border-color: azure;
+        border-width: 5px;
+        border-style: solid;
+
+        
+}
+#register-section{
+    margin-bottom: 5px;   
+}
+
+
+/*--Code for Red boxes iss code ki wajah se cultural haag raha hai*/
+.main{
+    
+    border-color: white;
+    border-width: 2px 0px 2px 0px;
+    border-style: solid;
+}
+.box-home{
+    border-top-color: white;
+    border-top-width: 2px;
+    width:100%; height:250px; border:1px solid #000; border-radius:2px; float:left; 
+    background-image: url(css/images/home-card.jpg);
+    position: relative;
+}
+.box-home img{width:100%; height:100%;}
+.box-home .overlay{
+    width:100%; height:100%; background-image: url(css/images/home-card-2.jpg); opacity:0.9;
+}
+.box-home a{
+    padding: 5px 7px; border:1px solid #000 ; display:inline-block; opacity:0; transition:all 0.75s ease-in-out;    cursor: pointer;/* z-index: 10000; */position: absolute;
+    align-self: center; border-color: transparent; padding-bottom: 10px;
+}
+
+
+
+.box-home .overlay:hover{
+    opacity:0.1; transition:all 0.5s ease-in-out; width:300px;  float:right; 
+}
+.box-home:hover{
+    box-shadow:0px 0px 10px #6A6A6A;
+    border:1px solid #00DFDF;transition:all 0.5s ease-in-out;
+}
+.box-home:hover a{opacity:1; color:#FFFFFF;   border-radius:1px;
+    align-self: center;
+    margin-top: 40%;
+	text-decoration: none;
+}
+.home-col{
+    padding: 0px;
+}

@@ -1,0 +1,47 @@
+.footer_bottom_Div {
+
+    align-content: center;
+  position: relative;
+  margin-top: 20px;
+  bottom: 0px;
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  z-index: 500;
+}
+
+.extras {
+  float: left;
+  padding-top: 2px;
+}
+
+.extras li {
+  align-content: center;
+  box-sizing: border-box;
+  opacity: 1;
+  display: inline;
+  float: left;
+  margin-right: 8vw;
+  font-size: 1vw;
+  margin-top: 0.4vh;
+}
+
+.icons {
+    align-self: center;
+  margin-top: 5px;
+}
+
+li {
+	list-style: none;
+}
+ 
+.extras a{
+	color: white;
+}
+
+.icons img {
+  width: 2.5%;
+  display: inline;
+  float: right;
+  padding-right: 1%;
+}
+

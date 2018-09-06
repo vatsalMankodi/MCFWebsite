@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html form interface</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="ContactFormStyle.css" rel="stylesheet">
+    </head>
+    <body style="background-color: black;">
+        <form action="Thankyou.php" method="post">
+  
+  <div class="form-group">
+    <label for="exampleInputName1">Name</label>
+    <input type="text" class="form-control" id="exampleInputName1" placeholder="Username" name="u_name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="u_email">
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleInputContact">Contact</label>
+    <input type="number" id="exampleInputContact" name="u_contact">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputQuesion">Question</label>
+    <input type="text" id="exampleInputQuestion" name="u_question">
+  </div>
+            
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <!--<h3>Contact Us</h3>
+        <form action="Thankyou.php" method="post">
+            Name:<br>
+            <input type="text" name="u_name" required><br>
+            Email:<br>
+            <input type="email" name="u_email" required><br>
+            Contact:<br>
+            <input type="number" name="u_contact" required><br>
+            Question:<br>
+            <input type="text" name="u_question" required><br>
+            <input type="submit" value="Submit"><br>
+        </form>-->
+    </body>
+</html>

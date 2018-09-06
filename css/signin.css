@@ -1,0 +1,59 @@
+form { margin: 5px 10px; }
+
+h2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.container { 
+	max-width: 360px;
+	margin-top: 5px;
+	width: auto;
+}
+
+.divider {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.divider hr {
+  margin: 7px 0px;
+  width: 35%;
+}
+
+.left { float: left; }
+
+.right { float: right; }
+
+.panel-body{
+    color: white;
+}
+
+@media only screen and (max-height: 700px){
+    
+    .panel-body{
+        margin-top: 150px;
+    }
+} 
+
+@media only screen and (max-height: 550px){
+    
+    .panel-body{
+        margin-top: 250px;
+    }
+} 
+
+@media only screen and (max-height: 550px) and (orientation: landscape){
+    
+    .panel-body{
+        margin-top: 500px;
+    }
+} 
+
+@media only screen and (max-height: 570px) and (max-width: 330px){
+    
+    .panel-body{
+        margin-top: 300px;
+    }
+} 
